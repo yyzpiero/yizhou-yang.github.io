@@ -1,12 +1,12 @@
-#home {
+#blog {
     #aside{
         display:block;
         @media (max-width: 991px) {
            display: none;
         }
     }
-    #header-nav, #header-content, .bg{
-        display:none;
+    #header-content, .bg{
+        display:block;
         @media (max-width: 991px) {
            display: block;
         }
