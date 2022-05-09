@@ -3,7 +3,7 @@ baseurl: ""
 url: ""
 
 # Blog Setting
-blog: False
+blog: True
 
 # Page Settings
 theme_settings:
@@ -55,6 +55,12 @@ paginate_path: "blog/page:num"
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate]
+plugins: ['jekyll-paginate', 'jekyll/scholar']
 bootstrap:
   assets: true
+
+# Bibliography settings
+scholar:
+  bibliography: publications.bib
+  style: ieee
+  locale: en
