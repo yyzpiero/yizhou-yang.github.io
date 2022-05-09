@@ -2,6 +2,11 @@
 source "https://rubygems.org"
 gemspec
 
-gem 'github-pages'
-gem "jekyll-paginate"
-gem "webrick", "~> 1.7"
+gem "webrick"
+gem "kramdown-parser-gfm"
+
+group :jekyll_plugins do
+  gem "jekyll-email-protect"
+  gem "jekyll-scholar"
+  gem "jekyll-paginate"
+end
