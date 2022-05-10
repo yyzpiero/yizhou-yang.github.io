@@ -9,7 +9,7 @@
         <div class="card">
           {% if project.image %}
           <div class="img-wrap">
-            <img src="{{ site.url }}/assets/project/{{ project.image }}" alt="">
+            <img src="{{ project.image.path | prepend: '/assets/project/' | relative_url }}" alt="{{ project.image.alt }}">
           </div>
           {% endif %}
           <div class="text-wrap {% if project.image %}{% endif %}">
@@ -52,4 +52,4 @@
 </section>
 
 <!-- modal -->
-<script type="text/javascript" src="{{ site.url }}/assets/js/modal.js"></script>
+<script type="text/javascript" src="{{ '/assets/js/modal.js' | relative_url }}"></script>

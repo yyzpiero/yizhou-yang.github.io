@@ -29,6 +29,10 @@ theme_settings:
   # Icons
   icons:
     email:  # Full email address, e.g. "sample@google.com"
+    orcid: 
+    scholar: 
+    publons: 
+    research_gate: 
     linkedin:  # Full URL 
     github: chrjabs
     gitlab: 
@@ -43,9 +47,7 @@ theme_settings:
   interests_title: RESEARCH INTERESTS
   skills_title: SKILLS
   projects_title: PROJECTS
-
-  # Disqus
-  disqus_shortname :
+  recentpubs_title: RECENT PUBLICATIONS
 
 # Pagination
 paginate: 5
@@ -62,5 +64,20 @@ bootstrap:
 # Bibliography settings
 scholar:
   bibliography: publications.bib
-  style: ieee
+  bibliography_template: pubstemplate
+  style: apa
   locale: en
+  last_name: Me
+  first_name: [Myself, M.]
+
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website] # Filter out certain bibtex entry keywords used internally from the bib output
+
+academicons:
+  version: "1.9.1"
+  integrity: "sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg="
+fontawesome:
+  version: "5.15.4"
+  integrity: "sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4="
+jquery:
+  version: "3.6.0"
+  integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
