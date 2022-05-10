@@ -26,38 +26,15 @@ layout: page
   <!-- career section -->
   <section id="career" class="row">
     <article class="exper col-12 col-md-6">
-      <p class="title">{{ site.theme_settings.experience_title }}</p>
-      <ul class="exper-list">
-        {% for exp in  profile.experience %}
-        <li class="meta">
-          <p class="date">{{ exp.start }} ~ {{ exp.end }}</p>
-          <p class="description">{{ exp.experience }}</p>
-        </li>
-        {% endfor %}
-      </ul>
+      {% include experience.html %}
     </article>
     <article class="skills col-12 col-md-6">
-      <p class="title">{{ site.theme_settings.interests_title }}</p>
-      <ul class="interests-list">
-        {% for interest in profile.interests %}
-        <li class="interest">{{ interest }}</li>
-        {% endfor %}
-      </ul>
-      <p class="title">{{ site.theme_settings.skills_title }}</p>
-      <ul class="skill-list">
-        {% for _ in profile.skills %}
-        <li class="skill">
-          <p class="name">{{ _.skill }}</p>
-          <div class="progress">
-            <div class="progress-bar" style="width: {{ _.value }}%">
-              <div class="progress-value">{{ _.value }}%</div>
-            </div>
-          </div>
-        </li>
-        {% endfor %}
-      </ul>
+      {% include interests.html %}
+      {% include skills.html %}
     </article>
   </section>
 
   {% include projects.html %}
+
+  {% include recentpubs.html %}
 </div>

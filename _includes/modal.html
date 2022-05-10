@@ -11,14 +11,14 @@
     </div>
     <div class="content">
       {% if project.image %}
-      <img src="{{ site.url }}/assets/project/{{ project.image }}" alt="">
+        <img src="{{ project.image.path | prepend: '/assets/project/' | relative_url }}" alt="{{ project.image.alt }}">
       {% endif%}
       <div class="description">{{ project.description }}</div>
       {% for content in project.contents %}
       <div class="sub-content">
         <div class="title">{{ content.title }}</div>
         {% if content.image %}
-        <img src="{{ site.url }}/assets/project/{{ content.image }}" alt="{{ content.title }}">
+          <img src="{{ content.image.path | prepend: '/assets/project/' | relative_url }}" alt="{{ content.image.alt }}">
         {% endif %}
         <div class="description">{{ content.description }}</div>
       </div>
