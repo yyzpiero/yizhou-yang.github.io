@@ -1,7 +1,7 @@
 {% assign icons = site.theme_settings.icons %}
 {% if icons.email %}
 <li>
-  <a href="mailto:{{ icons.email }}" title="Email">
+  <a href="mailto:{{ icons.email | encode_email }}" title="Email">
     <i class="fas fa-envelope"></i>
   </a>
 </li>
