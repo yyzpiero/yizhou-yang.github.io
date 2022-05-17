@@ -6,7 +6,7 @@ Welcome to Grape Academic Theme!
 This theme is based on [Grape Theme](https://github.com/naye0ng/Grape-Theme) and modifies it to be more directly applicable as an academic portfolio page.
 It can still include a blog, but that is optional.
 
-[Demo](https://grape-theme.netlify.com)
+[Demo](https://chrjabs.github.io/Grape-Academic-Theme)
 
 ## Installation
 
@@ -28,13 +28,20 @@ It can still include a blog, but that is optional.
    bundle install
    ```
 
-4. Update `_config.yml` and `projects.yml` with your own settings.
+4. Update `_config.yml`, `_data/projects.yml`, `_data/projects.yml` and `_bibliography/publications.bib` with your own settings.
 
 5. Run the Jekyll server
 
    ```
    bundle exec jekyll serve
    ```
+
+## Publishing
+
+Grape-Academic-Theme uses jekyll-scholar and therefore needs to manually be published to GitHub pages.
+A script for publishing on a `gh-pages` branch is included.
+Run `_scripts/publish.sh` from the main project directory and the page will be built, copied to the `gh-pages` branch and published.
+Make sure that GitHub pages is set up to publish that branch.
 
 ## Customizing
 
@@ -50,7 +57,6 @@ This will remove the navigation bar linking to the blog.
 
 ```
 baseurl: "{subpath}"
-url: "https://{username}.github.io"
 
 theme_settings :
   title: {blog title}
@@ -65,6 +71,7 @@ profile:
   image: assets/img/{prorile image}
     username: {username}
     description: 
+    webpage: # will be linked to in footer
     experience:
       - start:
         end: 
