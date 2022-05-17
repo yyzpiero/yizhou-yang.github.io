@@ -1,6 +1,5 @@
 # Site Settings
-baseurl: ""
-url: ""
+baseurl: "/Grape-Academic-Theme"
 
 # Blog Setting
 blog: True
