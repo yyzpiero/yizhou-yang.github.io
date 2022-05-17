@@ -4,6 +4,9 @@ baseurl: "/Grape-Academic-Theme"
 # Blog Setting
 blog: True
 
+# Language of the website
+lang: en
+
 # Page Settings
 theme_settings:
   title: Grape Theme
