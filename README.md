@@ -42,6 +42,7 @@ Grape-Academic-Theme uses jekyll-scholar and therefore needs to manually be publ
 A script for publishing on a `gh-pages` branch is included.
 Run `_scripts/publish.sh` from the main project directory and the page will be built, copied to the `gh-pages` branch and published.
 Make sure that GitHub pages is set up to publish that branch.
+If additional scripts should be executed in the HTML root, they can be placed in `_scripts/publish.d` and will be automatically executed.
 
 ## Customizing
 
