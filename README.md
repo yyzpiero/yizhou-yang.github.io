@@ -85,6 +85,23 @@ skills:
     value: 85  # Percent value
 ```
 
+### Presentations
+
+The data for the presentations page can be defined in `data/presentations.yml`.
+
+```
+- presentation:
+    title: A nice presentation
+    event: Fancy conference
+    date: 05/2022
+    comment: This is some comment text that can do _Markdown_
+    slides: https://www.google.com # potential link to slides
+- presentation:
+    title: A second presentation
+    event: Another conference
+    date: 03/2022
+```
+
 ### Pagination
 
 Defines the number of posts to be shown on one page.
