@@ -1,4 +1,4 @@
-# Grape-Theme
+# Grape-Academic-Theme
 
 ![home](./assets/img/home.png)
 
@@ -42,6 +42,7 @@ Grape-Academic-Theme uses jekyll-scholar and therefore needs to manually be publ
 A script for publishing on a `gh-pages` branch is included.
 Run `_scripts/publish.sh` from the main project directory and the page will be built, copied to the `gh-pages` branch and published.
 Make sure that GitHub pages is set up to publish that branch.
+If additional scripts should be executed in the HTML root, they can be placed in `_scripts/publish.d` and will be automatically executed.
 
 ## Customizing
 
@@ -65,20 +66,23 @@ theme_settings :
 ### Profile Settings
 
 Profile is displayed on the index page, and also experience and skills are displayed on the portfolio page.
+The profile is configured in `_data/profile.yml`.
 
 ```
-profile:
-  image: assets/img/{prorile image}
-    username: {username}
-    description: 
-    webpage: # will be linked to in footer
-    experience:
-      - start:
-        end: 
-        experience: {company name}, {title}
-     skills: 
-      - skill: 
-        value: 85  # Percent value
+image: assets/img/smile.png
+username: Christoph Jabs
+description: creator of the Grape-Academic-Theme! Grape-Academic-Theme is a modification of the Grape-Theme by naye0ng, making it more suitable as an academic portfolio.
+webpage: https://chrjabs.github.io
+experience:
+  - start: 2017-05-03
+    end: 2018-05-06
+    experience : company name, title
+interests:
+  - Interest 1
+  - Interest 2
+skills: 
+  - skill: HTML5 & CSS
+    value: 85  # Percent value
 ```
 
 ### Pagination
@@ -158,6 +162,6 @@ You can confirm how to draw tags at [here](https://grape-theme.netlify.com/2019/
    ---
    ```
 
-## License
+## Licence
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The theme is available as open source under the terms of the [MIT Licence](https://opensource.org/licenses/MIT).
