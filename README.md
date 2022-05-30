@@ -54,6 +54,11 @@ The blog configuration is available in `_config.yml`.
 If you do not want to include a blog in your page, set `blog: False`.
 This will remove the navigation bar linking to the blog.
 
+### Favicon
+
+Generate your favicons with [realfavicongenerator.net](https://realfavicongenerator.net/) and place them in the root directory.
+The code to include them is already set up in the template.
+
 ### Site configuration
 
 ```
