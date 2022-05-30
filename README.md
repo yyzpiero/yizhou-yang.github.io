@@ -1,6 +1,6 @@
 # Grape-Academic-Theme
 
-![home](./assets/img/home.png)
+![home](https://chrjabs.github.io/Grape-Academic-Theme/assets/img/portfolio.png)
 
 Welcome to Grape Academic Theme!
 This theme is based on [Grape Theme](https://github.com/naye0ng/Grape-Theme) and modifies it to be more directly applicable as an academic portfolio page.
@@ -117,7 +117,7 @@ paginate: 5
 
 ### Portfolio Settings
 
-![home](./assets/img/portfolio.png)
+![home](https://chrjabs.github.io/Grape-Academic-Theme/assets/img/portfolio.png)
 
 The Project configuration is available in `_data/projects.yml`.
 
@@ -128,13 +128,11 @@ If `modal : False` is selected, modal will not be displayed on site.
   
   - If `print: True` is selected, it will be displayed on landing page
   
-   ![print project](./assets/img/print-project.png)
-  
 - **modal** 
   
   - If `modal: True` is selected, modal will be displayed on the Portfolio page
   
-    ![home](./assets/img/modal.png)
+    ![home](https://chrjabs.github.io/Grape-Academic-Theme/assets/img/modal.png)
 
 ```
 print: True
