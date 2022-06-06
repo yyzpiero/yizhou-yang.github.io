@@ -1,5 +1,11 @@
 # Grape-Academic-Theme
 
+<a href="https://jekyll-themes.com">
+    <img src="https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg" height="20" alt="Jekyll Themes Shield" loading="lazy">
+</a>
+
+---
+
 ![home](https://chrjabs.github.io/Grape-Academic-Theme/assets/img/portfolio.png)
 
 Welcome to Grape Academic Theme!
