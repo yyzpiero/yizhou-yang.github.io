@@ -1,6 +1,12 @@
 # Grape-Academic-Theme
 
-![home](./assets/img/home.png)
+<a href="https://jekyll-themes.com">
+    <img src="https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg" height="20" alt="Jekyll Themes Shield" loading="lazy">
+</a>
+
+---
+
+![home](https://chrjabs.github.io/Grape-Academic-Theme/assets/img/portfolio.png)
 
 Welcome to Grape Academic Theme!
 This theme is based on [Grape Theme](https://github.com/naye0ng/Grape-Theme) and modifies it to be more directly applicable as an academic portfolio page.
@@ -53,6 +59,11 @@ Grape-Theme has two great features: the profile section and the project section 
 The blog configuration is available in `_config.yml`.
 If you do not want to include a blog in your page, set `blog: False`.
 This will remove the navigation bar linking to the blog.
+
+### Favicon
+
+Generate your favicons with [realfavicongenerator.net](https://realfavicongenerator.net/) and place them in the root directory.
+The code to include them is already set up in the template.
 
 ### Site configuration
 
@@ -112,7 +123,7 @@ paginate: 5
 
 ### Portfolio Settings
 
-![home](./assets/img/portfolio.png)
+![home](https://chrjabs.github.io/Grape-Academic-Theme/assets/img/portfolio.png)
 
 The Project configuration is available in `_data/projects.yml`.
 
@@ -123,13 +134,11 @@ If `modal : False` is selected, modal will not be displayed on site.
   
   - If `print: True` is selected, it will be displayed on landing page
   
-   ![print project](./assets/img/print-project.png)
-  
 - **modal** 
   
   - If `modal: True` is selected, modal will be displayed on the Portfolio page
   
-    ![home](./assets/img/modal.png)
+    ![home](https://chrjabs.github.io/Grape-Academic-Theme/assets/img/modal.png)
 
 ```
 print: True
