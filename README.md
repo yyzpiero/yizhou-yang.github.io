@@ -14,6 +14,31 @@ It can still include a blog, but that is optional.
 
 [Demo](https://chrjabs.github.io/Grape-Academic-Theme)
 
+## Features
+
+### [Portfolio Homepage](https://chrjabs.github.io/Grape-Academic-Theme)
+
+Portfolio page giving an overview of your research.
+
+### [Publications List](https://chrjabs.github.io/Grape-Academic-Theme/publications)
+
+A list of your publications auto-generated from a BibTeX file.
+Additional information can be linked to from the BibTeX file.
+
+### [Presentations List](https://chrjabs.github.io/Grape-Academic-Theme/presentations)
+
+A list of your presentations auto-generated for a data file.
+
+### [Blog](https://chrjabs.github.io/Grape-Academic-Theme/blog)
+
+An (optional) blog for any posts you want to publish.
+
+### [Hub Pages](https://chrjabs.github.io/Grape-Academic-Theme/example-hub)
+
+Hub pages are intended for easy linking in your presentations.
+They collect links and additional information related to your presentation so that you only have to put one link on your slides.
+They can be manually generated or automatically from one of your publication entries.
+
 ## Installation and Serving Local Version for Testing
 
 1. Fork and clone the Grape Academic Theme repo
