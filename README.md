@@ -14,6 +14,33 @@ It can still include a blog, but that is optional.
 
 [Demo](https://chrjabs.github.io/Grape-Academic-Theme)
 
+## Features
+
+Some of these features are optional and can be turned on or off in the `_config.yml` file.
+
+### [Portfolio Homepage](https://chrjabs.github.io/Grape-Academic-Theme)
+
+Portfolio page giving an overview of your research.
+
+### [Publications List](https://chrjabs.github.io/Grape-Academic-Theme/publications)
+
+A optional list of your publications auto-generated from a BibTeX file.
+Additional information can be linked to from the BibTeX file.
+
+### [Presentations List](https://chrjabs.github.io/Grape-Academic-Theme/presentations)
+
+A optional list of your presentations auto-generated for a data file.
+
+### [Blog](https://chrjabs.github.io/Grape-Academic-Theme/blog)
+
+An optional blog for any posts you want to publish.
+
+### [Hub Pages](https://chrjabs.github.io/Grape-Academic-Theme/example-hub)
+
+Hub pages are intended for easy linking in your presentations.
+They collect links and additional information related to your presentation so that you only have to put one link on your slides.
+They can be manually generated or automatically from one of your publication entries.
+
 ## Installation and Serving Local Version for Testing
 
 1. Fork and clone the Grape Academic Theme repo
@@ -64,11 +91,9 @@ These are step-by-step instructions for forking and publishing the theme at your
 
 Grape-Theme has two great features: the profile section and the project section of the portfolio page. Just by changing `_config.yml` and `projects.yml`, you can use all of these features.
 
-### Blog Settings
+### Feature Settings
 
-The blog configuration is available in `_config.yml`.
-If you do not want to include a blog in your page, set `blog: False`.
-This will remove the navigation bar linking to the blog.
+The blog, publications, and presentations pages are optional and can be turned on or off in the config file.
 
 ### Favicon
 
@@ -122,6 +147,10 @@ The data for the presentations page can be defined in `data/presentations.yml`.
     event: Another conference
     date: 03/2022
 ```
+
+### Hub Pages
+
+For an example on how to configure a hub page, see the `example-hub.md` file.
 
 ### Pagination
 
