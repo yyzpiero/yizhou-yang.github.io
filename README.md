@@ -14,7 +14,34 @@ It can still include a blog, but that is optional.
 
 [Demo](https://chrjabs.github.io/Grape-Academic-Theme)
 
-## Installation
+## Features
+
+Some of these features are optional and can be turned on or off in the `_config.yml` file.
+
+### [Portfolio Homepage](https://chrjabs.github.io/Grape-Academic-Theme)
+
+Portfolio page giving an overview of your research.
+
+### [Publications List](https://chrjabs.github.io/Grape-Academic-Theme/publications)
+
+A optional list of your publications auto-generated from a BibTeX file.
+Additional information can be linked to from the BibTeX file.
+
+### [Presentations List](https://chrjabs.github.io/Grape-Academic-Theme/presentations)
+
+A optional list of your presentations auto-generated for a data file.
+
+### [Blog](https://chrjabs.github.io/Grape-Academic-Theme/blog)
+
+An optional blog for any posts you want to publish.
+
+### [Hub Pages](https://chrjabs.github.io/Grape-Academic-Theme/example-hub)
+
+Hub pages are intended for easy linking in your presentations.
+They collect links and additional information related to your presentation so that you only have to put one link on your slides.
+They can be manually generated or automatically from one of your publication entries.
+
+## Installation and Serving Local Version for Testing
 
 1. Fork and clone the Grape Academic Theme repo
 
@@ -50,15 +77,23 @@ Run `_scripts/publish.sh` from the main project directory and the page will be b
 Make sure that GitHub pages is set up to publish that branch.
 If additional scripts should be executed in the HTML root, they can be placed in `_scripts/publish.d` and will be automatically executed.
 
+These are step-by-step instructions for forking and publishing the theme at your `<username>.github.io` github pages website:
+
+1. For the repository to a repository named `<username>/<username>.github.io`
+2. Go to the settings of the new repository and navigate to the "Pages" tab.
+  There, change the source for github pages to the `gh-pages` branch of the repository.
+3. Clone the repository and go through the installation steps listed above
+4. In `_config.yml`, change the `baseurl` option to an empty string (`""`) to host the webpage in the root of your `github.io` page
+5. Commit the change and (with a working jekyll install) run `_scripts/publish.sh`
+6. _Wait a couple of minutes_ and the demo content will show up at `<username>.github.io`
+
 ## Customizing
 
 Grape-Theme has two great features: the profile section and the project section of the portfolio page. Just by changing `_config.yml` and `projects.yml`, you can use all of these features.
 
-### Blog Settings
+### Feature Settings
 
-The blog configuration is available in `_config.yml`.
-If you do not want to include a blog in your page, set `blog: False`.
-This will remove the navigation bar linking to the blog.
+The blog, publications, and presentations pages are optional and can be turned on or off in the config file.
 
 ### Favicon
 
@@ -112,6 +147,10 @@ The data for the presentations page can be defined in `data/presentations.yml`.
     event: Another conference
     date: 03/2022
 ```
+
+### Hub Pages
+
+For an example on how to configure a hub page, see the `example-hub.md` file.
 
 ### Pagination
 
