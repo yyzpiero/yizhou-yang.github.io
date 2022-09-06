@@ -2,8 +2,8 @@
 layout: post
 title: Population Based Training
 subtitle : Hyper-Parameters
-tags: [Sample Post, Welcome to the Grape Theme!]
+tags: [Miscellaneous]
 author: Yizhou Yang
-comments : False
+comments : True
 ---
 This is an example of a post which includes code, quotes and backtick.

@@ -1,17 +1,22 @@
-image: assets/img/smile.png
+image: assets/img/profile.jpg
 username: Yizhou Yang
 description: PostDoc at [Zhejiang Lab](https://www.zhejianglab.com) 
 webpage: https://yyzpiero.github.io
 experience: # Remove for hiding the experience section
+  - start: 2016-04
+    end: 2020-12
+    experience : Australian National University, Doctor of Philosophy, 
   - start: 2013-07
     end: 2015-07
-    experience : Australian National University, Bachelor with Honors, EE with Photonic Minor
+    experience : Australian National University, Bachelor of Engineering (Honours), Electronics and Communication Engineering 
   - start: 2011-09
     end: 2015-07
-    experience : Beijing Institute of Technology, BSc, Optoelectronics
+    experience : Beijing Institute of Technology, Bachelor of Engineering, Optoelectronics
 interests: # Remove for hiding the interests section
-  - Interest 1
-  - Interest 2
+  - Wireless Communciations
+  - Network Security
+  - Reinforcement Learning
+  - Game Theory
 # skills: # Remove for hiding the skills section
 #   - skill: Python
 #     # value: 85  # Percent value
@@ -20,7 +25,7 @@ interests: # Remove for hiding the interests section
 social:
   email:  yang.yizhou@outlook.com
   orcid: 
-  scholar: 
+  scholar: ZRTPDrsAAAAJ&hl=en
   #publons: 
   #research_gate: 
   dblp:  # Full URL
