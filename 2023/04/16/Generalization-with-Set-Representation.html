@@ -26,21 +26,22 @@
   <link rel="stylesheet" href="/assets/css/main.css">
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Example Hub Page | Yizhou Yang Personal Page</title>
+<title>Reinforcement Learning Enabled Automatic Penetration Testing | Yizhou Yang Personal Page</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Example Hub Page" />
+<meta property="og:title" content="Reinforcement Learning Enabled Automatic Penetration Testing" />
 <meta name="author" content="Yizhou Yang" />
 <meta property="og:locale" content="en_GB" />
-<meta name="description" content="An example for how to use hub pages." />
-<meta property="og:description" content="An example for how to use hub pages." />
+<meta name="description" content="Yizhou Yang Personal Page" />
+<meta property="og:description" content="Yizhou Yang Personal Page" />
 <meta property="og:site_name" content="Yizhou Yang Personal Page" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-04-16T00:00:00+08:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Example Hub Page" />
+<meta property="twitter:title" content="Reinforcement Learning Enabled Automatic Penetration Testing" />
 <meta name="twitter:site" content="@Lord_Rayleigh55" />
 <meta name="twitter:creator" content="@Yizhou Yang" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Yizhou Yang"},"description":"An example for how to use hub pages.","headline":"Example Hub Page","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/img/smile.png"},"name":"Yizhou Yang"},"url":"/example-hub.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Yizhou Yang"},"dateModified":"2023-04-16T00:00:00+08:00","datePublished":"2023-04-16T00:00:00+08:00","description":"Yizhou Yang Personal Page","headline":"Reinforcement Learning Enabled Automatic Penetration Testing","mainEntityOfPage":{"@type":"WebPage","@id":"/2023/04/16/Generalization-with-Set-Representation.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/img/smile.png"},"name":"Yizhou Yang"},"url":"/2023/04/16/Generalization-with-Set-Representation.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -78,110 +79,48 @@
     </nav>
   </header>
 </section>
-<div id="hub">
-  <section id="header-content">
-    <h1>Example Hub Page</h1>
+<div id="post">
+  <section class="post-header">
+    <h1 class="title">Reinforcement Learning Enabled Automatic Penetration Testing</h1>
+    <p class="subtitle">Hyper-Parameters</p>
+    <p class="meta">
+      April 16, 2023
+    </p>
   </section>
-  <section class="bg"></section>
-  <div class="row">
-    <!-- Aside Navigation  -->
-    <aside id="aside" class="col-md-4">
-      <!-- User Profile -->
-
-
-
-<div id="profile">
-  <a href="/portfolio">
-    <div class="img-wrap">
-      <img src="/assets/img/profile.jpg" alt="profile-image">
-    </div>
-  </a>
-  <p class="username">Yizhou Yang</p>
-
-  <!-- Social icons from Font Awesome -->
-  <ul id="icons">
+  <section class="post-content">
     
 
-<li>
-  <a href="mailto:%79%61%6E%67.%79%69%7A%68%6F%75@%6F%75%74%6C%6F%6F%6B.%63%6F%6D" target="_blank" title="Email">
-    <i class="fas fa-envelope"></i>
-  </a>
-</li>
-
-
-
-
-
-<li>
-  <a href="https://scholar.google.com/citations?user=ZRTPDrsAAAAJ&hl=en" target="_blank" title="Google Scholar">
-    <i class="ai ai-google-scholar"></i>
-  </a>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-<li>
-  <a href="https://www.linkedin.com/in/yizhou-yang-6b124a122/" target="_blank" title="Linkedin">
-    <i class="fab fa-linkedin"></i>
-  </a>
-</li>
-
-
-
-<li>
-  <a href="https://github.com/yyzpiero" target="_blank" title="Github">
-    <i class="fab fa-github"></i>
-  </a>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </ul>
+  </section>
 </div>
-    </aside>
-    <!-- Post List -->
-    <section id="content" class="col-md-8">
-      <p>An <em>example</em> for how to use hub pages.</p>
 
-      <section class="links">
-        <h2>Links</h2>
-        
-          (missing reference)
-          <ol class="bibliography"></ol>
-        
-      </section>
-      <h2 id="custom-content">Custom Content</h2>
-
-<p>You can insert custom content on a hub page by putting it here.</p>
-
-      <section class="abs-bibtex">
-        
-          <ol class="bibliography"></ol>
-        
-      </section>
-    </section>
-  </div>
+<div id="top" class="top-btn" onclick="moveTop()">
+  <i class="fas fa-chevron-up"></i>
 </div>
+
+<script>
+  var lastScrollTop = 0;
+  window.onscroll = function () {
+    var st = document.body.scrollTop || document.documentElement.scrollTop;
+    if (st > 250) {
+      document.getElementById("top").style.display = "block"
+      if (st > lastScrollTop) {
+        document.getElementById("top").style.opacity = 0
+      } else {
+        document.getElementById("top").style.opacity = 1
+      }
+    } else {
+      document.getElementById("top").style.opacity = 0
+      if (st > lastScrollTop) {
+        document.getElementById("top").style.display = "none"
+      }
+    }
+    lastScrollTop = st <= 0 ? 0 : st;
+  }
+  function moveTop() {
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
+  }
+</script>
 
 <!-- Footer -->
 <footer>
